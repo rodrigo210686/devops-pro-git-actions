@@ -9,9 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Minha primeira ação"
-        run: echo " Xibara ximamoto"
+        run: echo "Xibara ximamoto"
       - name: "Segunda ação"
-        run:
-          echo "Workdlow criado"
+        run: |
+          echo "Workflow criado"
           echo "parabéns"
   
