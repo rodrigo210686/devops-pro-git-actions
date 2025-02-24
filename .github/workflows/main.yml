@@ -19,5 +19,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Verificação do versão do nodeJS"
-        run: node --version        
-  
+        run: node --version
+      - name: "Definição da versão do node"
+      - uses: actions/setup-node@v4
+        with:
+          node-version:'20.13.1'            
+      - name: "Verificação do versão do nodeJS"
+        run: node --version  
